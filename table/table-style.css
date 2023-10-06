@@ -1,0 +1,55 @@
+h1{
+    font-family: "Centaur", "Brush Script MT", serif;
+    color: #FFFFF0;
+    font-size: 50px;
+}
+
+h2{
+    font-family: "Centaur", "Brush Script MT", serif;
+    font-size: 35px;
+}
+
+header{
+    background-image: url(img/bs_2.jpg);
+}
+
+body{
+    background-color: #000000;
+    font-family: "Centaur", "HGP明朝E", serif;
+    font-size: 20px;
+}
+
+td img{
+    margin: auto;
+    width: 250px;
+}
+
+table th{
+    padding: 10px;
+    font-size: 25px;
+}
+
+table td{
+    font-size: 20px;
+    padding: 10px;
+}
+
+td{
+    color: #FFFFF0;
+}
+
+th{
+    color: #FFFFF0;
+}
+
+
+table{
+    background-color: #404343;
+    text-align: center; vertical-align: auto;
+    margin-bottom: 70px;
+}
+
+table, th, td{
+    border: solid 0.5px #83c3b5;
+    border-collapse: collapse;
+}
