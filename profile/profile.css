@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.bg-pink{
+    background-color: pink;
+}
+
+.color-pink{
+    color: #fffcf4; 
+}
+
+h1{
+    background-color: rgb(251, 100, 153);
+    color: #fffcf4;
+    font-size: 30px;
+}
+
+div{
+    border: 2px solid rgb(251, 100, 153);
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgb(253, 221, 226);
+    font-family:"ＭＳ Ｐゴシック", sans-serif;
+}
+
+.name{
+    font-size: 30px;
+    color:#cc0171;
+}
+
+span{
+    color: azure;
+    background-color: rgb(251, 100, 153);
+    font-size: 23px;
+}
