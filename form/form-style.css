@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+input[type]{
+    margin-right: 0.5rem;
+}
+
+.list p{
+    padding: 10px;
+}
+
+.list .col{
+    display: inline-block;
+    width: 120px;
+    line-height: 19px;
+}
+
+.a{
+    margin: 20px;
+}
