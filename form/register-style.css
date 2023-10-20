@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+table th{
+    background-color: rgb(73, 199, 199);
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+}
+
+table td{
+    background-color: rgb(191, 236, 236);
+    padding: 10px;
+}
+
+.hissu{
+    font-size: 12px;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.kakko{
+    font-size: 9px;
+}
