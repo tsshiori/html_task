@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+h1 {
+    color: rgb(86, 32, 32);
+    background-color: rgba(240, 248, 255, 0.491);
+    padding-left: 30px;
+}
+
+
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    padding: 15px;
+    background-color: rgba(245, 218, 123, 0.406);
+}
+
+table th {
+    background-color: rgba(246, 181, 101, 0.854);
+    color: rgb(56, 21, 21);
+}
+
+table td {
+    background-color: rgba(255, 255, 255, 0.591);
+}
+
+.nen {
+    width: 20%;
+}
+
+.pro {
+    width: 30%;
+}
+
+.za {
+    width: 50;
+}
+
+caption {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(86, 32, 32);
+    font-family: 'BIZ UDPゴシック';
+    font-weight: bold;
+}

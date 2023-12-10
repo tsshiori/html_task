@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(img/ki.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    padding: 5%;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    background-color: rgba(240, 248, 255, 0.689);
+    color: rgb(86, 32, 32);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navi {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navi li {
+    width: 20%;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.484);
+    border-radius: 3px;
+}
+
+.navi li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: rgb(86, 32, 32);
+    /* 太字プロパティ */
+    font-weight: bold;
+}
+
+.navi li+li {
+    border-left: 2px solid rgb(26, 3, 3);
+}
+
+.navi a:hover {
+    background-color: rgba(240, 248, 255, 0.689);
+    border-radius: 3px;
+}
+
+.page {
+    color: rgb(86, 32, 32);
+    background-color: rgba(240, 248, 255, 0.491);
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+
+
+.jump h2 {
+    color: rgb(86, 32, 32);
+    text-align: center;
+    width: 30%;
+    margin-left: 40px;
+}
+
+.jump {
+    text-decoration: none;
+}
+
+.up .jump {
+    position: relative;
+}
+
+.up .jump:before {
+    content: "";
+    position: absolute;
+    left: 47px;
+    bottom: -4px;
+    width: 30%;
+    height: 3px;
+    background: rgb(86, 32, 32);
+    transform: scale(0, 1);
+    transition: 0.2s;
+}
+
+.up .jump:hover:before {
+    transform: scale(1);
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.689);
+    color: rgb(86, 32, 32);
+}

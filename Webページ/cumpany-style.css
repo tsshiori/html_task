@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body {
+    color: rgb(86, 32, 32);
+}
+
+h1 {
+    color: rgb(86, 32, 32);
+    background-color: rgba(240, 248, 255, 0.491);
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+main img {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.cum_nav {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cum_nav ol{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.cum_nav li {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cum_nav li a{
+    display: block;
+    padding: 0.5rem;
+    font-size: 20px;
+    color: rgb(86, 32, 32);
+}
+
+.cum_nav li a:hover {
+    text-decoration: none;
+}
+
+
+main table {
+    margin: 0 auto;
+    width: 90%;
+    padding: 15px;
+    background-color: rgba(245, 218, 123, 0.406);
+}
+
+main table th {
+    background-color: rgba(246, 181, 101, 0.854);
+    color: rgb(56, 21, 21);
+    padding: 5px;
+}
+
+main table td {
+    background-color: rgba(255, 255, 255, 0.591);
+    padding: 10px;
+}
+
+
+.link {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(246, 181, 101, 0.854);
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.link a {
+    color: rgb(56, 21, 21);
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.591);
+}
+
+.link:hover a {
+    color: rgba(246, 181, 101, 0.854);
+}
+
+main .rinen {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main p span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.box {
+    width: 80%;
+    display: flex;
+}
+
+.box span {
+    font-size: 23px;
+}
+
+.box div {
+    width: 50%;
+    text-align: center;
+}
+
+.daihyou {
+    padding-top: 25%;
+}
+
+.miryoku li {
+    font-size: 27px;
+}
+
+.miryoku p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rec {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rec iframe {
+    width: 85%;
+}
+
+.rec h2 {
+    color: rgb(86, 32, 32);
+    background-color: rgba(240, 248, 255, 0.491);
+    padding-left: 30px;
+}
+
+.rec p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rec img {
+    width: 100%;
+}
