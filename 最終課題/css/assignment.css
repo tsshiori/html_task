@@ -1,0 +1,65 @@
+#as {
+    background-image: url(../img/FEW.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    min-width: 1150px;
+    text-align: center;
+}
+
+.seni {
+    background-color: rgba(51, 22, 22, 0.457);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.seni h2 {
+    text-shadow: 0px -1px 3px #493d2f, 1px 0px 3px #493d2f, 0px 1px 3px #493d2f, -1px 1px 3px #493d2f;
+    text-align: center;
+}
+
+.se {
+    display: flex;
+}
+
+.se a {
+    color: rgb(253, 253, 253);
+}
+
+.se a:hover {
+    color: antiquewhite;
+}
+
+.se img{
+    width: 650px;
+}
+
+.giji {
+    background-color: rgba(51, 22, 22, 0.457);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.giji h2 {
+    text-shadow: 0px -1px 3px #493d2f, 1px 0px 3px #493d2f, 0px 1px 3px #493d2f, -1px 1px 3px #493d2f;
+    text-align: center;
+}
+
+.gi {
+    display: flex;
+}
+
+.gi a {
+    color: rgb(253, 253, 253);
+}
+
+.gi a:hover {
+    color: antiquewhite;
+}
+
+.gi img{
+    width: 650px;
+}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.midasi {
+    text-align: center;
+    font-family: 'Noto Serif JP', "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", "Sawarabi Mincho", serif;
+    color: #fff;
+    text-shadow: 0px -1px 3px #493d2f, 1px 0px 3px #493d2f, 0px 1px 3px #493d2f, -1px 1px 3px #493d2f;
+}
+
+
+.midasi h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.midasi .sp {
+    color: #ff4141;
+}
+
+.chanav {
+    width: 20%;
+    font-family: 'Amatic SC', cursive;
+    padding-top: 50px;
+    margin-top: 30px;
+    margin-left: 0;
+    background-color: #ffffff86;
+}
+
+.chanav li {
+    list-style: none;
+    margin: 2px;
+}
+
+.chanav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(56, 22, 7);
+}
+
+.chanav a:hover {
+    color: rgba(56, 22, 7, 0.804);
+}
+
+.chanav li:hover {
+    color: #f86a7b;
+    text-shadow: 0px -1px 3px #493d2f, 1px 0px 3px #493d2f, 0px 1px 3px #493d2f, -1px 1px 3px #493d2f;
+}
+
+.charnav ul {
+    display: flex;
+    margin: 10px 40px;
+}
+
+.charnav ul li {
+    box-shadow: 2px 3px 4px 1px #493d2f;
+}
+
+.charnav ul a:hover {
+    filter: opacity(40%);
+}
+
+.charnav ul li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+#charcter .char {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#charcter .charimg  img{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#charcter hr {
+    height: 2px;
+    background: linear-gradient(to right, #493d2f, #67543f 40%, #a38767 60%, #dbb489);
+}
+
+.charp {
+    background-color: #130f0cbc;
+    color: #fff;
+    text-align: left;
+    font-family: "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    padding: 4px 8px;
+}
